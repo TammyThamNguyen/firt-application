@@ -10,10 +10,10 @@ import { ToastController } from '@ionic/angular';
   styleUrls: ['home.page.scss']
 })
 export class HomePage {
-  title:string = 'Todo List';
+  title:string = 'My First App';
   tasks:Array<Task> = [];
   taskInput:string = '';
-  listTitle = 'Todo List';
+  listTitle = 'My First App';
   // taskForm:FormGroup;
   now:number;
   constructor(

@@ -1,13 +1,13 @@
 <ion-header>
   <ion-toolbar>
     <ion-title slot="primary">{{title}}</ion-title>
-    <ion-img slot="secondary" class="logo" src="../assets/check.png"></ion-img>
+    <ion-img slot="secondary" class="logo" src="../assets/list.png"></ion-img>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
   <form id="task-form" (submit)="addTask()" (keyup.enter)="addTask()">
-    <ion-input type="text" placeholder="add a task" [(ngModel)]="taskInput" name="task-input"></ion-input>
+    <ion-input type="text" placeholder="Add a task" [(ngModel)]="taskInput" name="task-input"></ion-input>
     <ion-button type="submit" color="primary" fill="solid" expand="block">
       Add
     </ion-button>
