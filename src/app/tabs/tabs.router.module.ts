@@ -17,14 +17,14 @@ const routes: Routes = [
         pathMatch: 'full',
       },
       {
-        path: 'home',
-        outlet: 'home',
-        component: HomePage
-      },
-      {
         path: 'about',
         outlet: 'about',
         component: AboutPage
+      },
+      {
+        path: 'home',
+        outlet: 'home',
+        component: HomePage
       },
       {
         path: 'contact',
